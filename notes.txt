@@ -1,0 +1,23 @@
+create venv
+python3 -m venv ./venv
+
+to enter venv:
+source ./venv/bin/activate
+
+to deactive venv:
+deactive
+
+installing django in venv:
+pip install django
+
+view what packages are installed in venv:
+pip freeze
+
+django create main project:
+django-admin startproject btre
+
+run server
+python manage.py runserver
+
+create app
+python manage.py startapp pages
