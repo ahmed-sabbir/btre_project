@@ -7,6 +7,9 @@ source ./venv/bin/activate
 to deactive venv:
 deactive
 
+get sample gitignore from
+gitignore.io
+
 installing django in venv:
 pip install django
 
@@ -21,3 +24,6 @@ python manage.py runserver
 
 create app
 python manage.py startapp pages
+
+generate static content
+python manage.py collectstatic
