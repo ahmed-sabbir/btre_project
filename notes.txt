@@ -5,7 +5,7 @@ to enter venv:
 source ./venv/bin/activate
 
 to deactive venv:
-deactive
+deactivate
 
 get sample gitignore from
 gitignore.io
