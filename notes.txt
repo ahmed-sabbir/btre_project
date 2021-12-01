@@ -4,6 +4,15 @@ python3 -m venv ./venv
 to enter venv:
 source ./venv/bin/activate
 
+which python
+Should be ./venv/bin/python now 
+
+which pip
+Should be ./venv/bin/pip now 
+
+pip install <package-name>
+Installs packages into ./venv/lib/python/site-packages 
+
 to deactive venv:
 deactivate
 
